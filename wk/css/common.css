@@ -1,0 +1,332 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial,"Microsoft Yahei",Helvetica,Tahoma,"PingFang SC","lantinghei SC","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+}
+
+ul,li{
+	list-style: none;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.top{
+	width: 100%;
+	min-height: 90px;
+	background: #12a4f6;
+}
+.top .topTitle{
+    margin: 0 auto;
+}
+   
+.top .topTitle .p1{
+	font-size: 0.36rem;
+	line-height: 90px;
+	color: #fff;
+	margin: 0;
+}
+.topChange:last-child{
+	padding-left: 0px !important;
+}
+.topChange a {
+	display: block;
+	width: 100%;
+}
+.topChange a span{
+	font-size: 0.42rem;
+	line-height: 90px;
+	color: #fff;
+	text-align: center;
+    width: 100%;
+}
+.carousel-inner img{
+	width: 100%;
+	max-height: 374px;
+}
+/*表单f2f2f5*/
+.logoIn{
+	margin: 60px 0;
+}
+.logoIn input{
+	outline: none;
+	background: #f2f2f5;
+	color: #999;
+	font-size: 0.22rem;
+	margin-bottom: 40px;
+}
+.logoIn input.form-control{
+	height: auto !important;
+	padding: 6px 8px !important;
+	outline: none;
+	background: #f2f2f5;
+	color: #999;
+	font-size: 0.22rem;
+	margin-bottom: 40px;
+}
+.logoIn .telInput{
+	margin: 0px !important;
+}
+.logoIn .telInput input{
+    padding: 6px 8px !important;
+    display: block;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.logoIn .telInput button{
+	padding: 7px !important;
+	    font-size: 0.2rem;
+	    background: #12a4f6;
+}
+.logoIn .telInput .imgInput{
+	height: 46px;
+	border: 1px solid #12a4f6;
+	border-radius: 4px;
+	/*background: #12a4f6;*/
+}
+.logoIn .inpSub{
+	background: #12a4f6 !important;
+	color: #fff !important;
+	font-size: 0.32rem !important;
+	    border-radius: 35px !important;
+}
+.logoIn .telInput{
+	margin: 0px !important;
+}
+.logoIn .p3{
+	color: #12a4f6;
+	font-size: 0.22rem;
+}
+.logoIn .p5{
+	font-size:  0.22rem;
+}
+.logoIn .p5 a{
+	font-size:  0.22rem;
+	color: #12a4f6;
+	text-decoration: none;
+}
+/*借款申请*/
+.apply{
+	margin: 60px 0;
+}
+.apply label{
+	font-size:  0.18rem;
+	color: #999;
+	font-weight: 400;
+}
+.apply label span{
+	font-size: 0.18rem;
+	color: #e84d2e;
+	vertical-align:-webkit-baseline-middle;
+	vertical-align: middle;
+}
+
+.apply .form-group label{
+	padding-right: 0 !important;
+}
+.apply .item label{
+	font-weight: bold;
+}
+.apply .form-group>div{
+	padding-left: 0 !important;
+}
+
+
+.apply .form-group .identify a{
+	padding: 6px 12px;
+	display: block;
+	background: #e84d2e;
+	border-radius: 25px;
+	color: #fff;
+	text-align: center;
+	margin: 0px 15%;
+}
+.apply .form-group input{
+	padding: 6px 8px;
+	outline: none;
+	background: #f2f2f5;
+	color: #999;
+	font-size:  0.22rem;
+	margin-bottom: 40px;
+}
+.apply .p5,.apply .p7{
+	margin: 20px 0;
+	color: #999;
+}
+.apply .p7{
+	font-size:  0.18rem;
+}
+.apply .p5{
+	font-size:  0.14rem;
+}
+.apply .p5 a{
+	color: #12a4f7;
+}
+.apply .inpSub{
+	background: #12a4f6 !important;
+	color: #fff !important;
+	font-size:  0.32rem !important;
+	border-radius: 35px !important;
+	height: auto !important;
+    padding: 6px 8px !important;
+    outline: none;
+}
+.layclass{
+	min-width: 130px !important;
+	background: #7f7f7f !important;
+	color: #FFFFFF;
+	
+	border-radius: 20px !important;
+}
+.layclass .layui-layer-content{
+	font-size:  0.20rem !important;
+	height: 100% !important;
+	padding: 80px 0 0 10px !important;
+}
+.layclass .layui-layer-ico{
+	left: 37% !important;
+	width: 54px !important;
+    height: 54px !important;
+	background: url(../img/alert.png) no-repeat !important;
+}
+/*借款审核*/
+.check{
+	margin: 60px 0;
+}
+
+.check label{
+	font-size:  0.18rem;
+	color: #999;
+	font-weight: 400;
+}
+.check label span{
+	font-size: 0.18rem;
+	color: #e84d2e;
+	vertical-align:-webkit-baseline-middle;
+	vertical-align: middle;
+}
+
+.check .form-group label{
+	padding-right: 0 !important;
+}
+.check .item label{
+	font-weight: bold;
+}
+.check .form-group>div{
+	padding-left: 0 !important;
+}
+
+
+.check .form-group .identify a{
+	padding: 6px 12px;
+	display: block;
+	background: #e84d2e;
+	border-radius: 25px;
+	color: #fff;
+	text-align: center;
+	margin: 0px 15%;
+}
+.check .form-group input{
+	padding: 6px 8px;
+	outline: none;
+	background: #f2f2f5;
+	color: #999;
+	font-size: 0.22rem;
+	margin-bottom: 40px;
+}
+.check .p5,.check .p7{
+	margin: 20px 0;
+	color: #999;
+}
+.check .p7{
+	font-size:  0.18rem;
+}
+.check .p5{
+	font-size:  0.14rem;
+}
+.check .p5 a{
+	color: #12a4f7;
+}
+.check .inpSub{
+	background-color: #12a4f6 !important;
+	color: #fff !important;
+	font-size: 0.32rem !important;
+	border-radius: 35px !important;
+	height: auto !important;
+    padding: 6px 8px !important;
+    outline: none;
+}
+.check .textLeft{
+}
+.check .textLeft p{
+	color: #333;
+	font-size:  0.26rem;
+	font-weight: 600;
+}
+.check .textMiddle{
+	padding-left: 50px !important;
+}
+.check .textRight{
+	padding-right: 20px !important;
+}
+.check .textMiddle p,.check .textRight p{
+	color: #c9c9c9;
+	font-size:  0.26rem;
+	font-weight: 600;
+}
+.check .progre{
+  margin-bottom: 30px;	
+}
+.check .progressLeft p{
+	padding-left: 25px !important;
+}
+.check .progressLeft .line{
+	height: 2px;
+	width: 100%;
+	background-image: url(../img/checkLine1.png);
+	background-repeat: repeat;
+	margin-left: 25px;
+    margin-top: 20px;
+}
+
+.check .progressRight{
+	padding-left: 0px !important;
+	padding-right: 25px !important;
+}
+.check .progressRight .line{
+	height: 2px;
+	background-image: url(../img/checkLine2.png);
+	background-repeat: repeat;
+	margin: 20px 25px 0px 25px;
+}
+/*申请成功*/
+.success{
+	position: relative;
+}
+.success .box{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%,45%);
+	-webkit-transform: translate(-50%,45%);
+	-moz-transform: translate(-50%,45%);
+}
+.success .box .p1 span{
+	color: #4169f3;
+	font-size: 1.2rem;
+}
+.success .box .p3{
+	font-size: 0.36rem;
+	color: #333333;
+	font-weight: bold;
+}

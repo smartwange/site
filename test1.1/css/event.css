@@ -1,0 +1,357 @@
+.event{
+	padding: 30px 0;
+}
+.event .eventCon{
+	margin: 0;
+}
+.event_left{
+	margin-bottom: 40px;
+}
+.event_left li {
+	padding: 0px 15px;
+}
+.event_left ul {
+	margin: 0;
+}
+
+.event_left li a{
+	display: block;
+	margin-bottom: 5px;
+	border: 1px solid #add3f4;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.event_left li a.active{
+	background: #add3f4;
+}
+.event_right{
+	padding: 4%;
+	border: 1px solid #add3f4;
+}
+.event_head{
+	margin-bottom: 30px;
+}
+.event_head .line{
+	margin-top: 30px;
+	 margin-right: 0px; 
+	 margin-left: 0px;
+}
+    
+ .event_head .line p{
+	color: #006CD5;
+	font-size: 24px;
+	padding: 0px 5px;
+}
+.event_head .line1{
+	 padding-right: 0px; 
+   padding-left: 0px;
+}
+.event_head .line1 img{
+	margin-top: 15px; 
+	    overflow: hidden;
+    width: 100%;
+}  
+.conDetail {
+	margin-bottom: 15px;
+}
+.conLeft img{
+	width: 100%;
+	overflow: hidden;
+	min-height: 170px;
+}
+.conRight{
+	padding: 20px 0;
+}
+.conRight p{
+	line-height: 24px;
+}
+
+.conRight p.p1{
+	color: #292929;
+	font-size: 18px;
+	line-height: 24px;
+}
+.conRight p.p3{
+	color: #666666;
+	font-size: 14px;
+}
+.conRight p.p5{
+	color: #666666;
+	font-size: 16px;
+}
+/*分割线*/
+
+.event_right hr {
+    margin-top: 40px !important;
+    border-top: 1px solid #add3f4;
+}
+/*分頁分页pager*/
+.event_right nav{
+	position: relative;
+	padding: 40px 0;
+}
+.event_right nav .con{
+	position: absolute;
+	width: 100%;
+}
+.event_right nav .con ul{
+	margin-left: 24%;
+	margin-top: -20px;
+}   
+.pager li>a, .pager li>span{
+	padding: 6px 12px !important;
+}
+.event_right .pagination, .event_right .pager{
+	/*margin: 0 !important;*/
+}
+.event_right .pagination li a{
+	margin-left: 8px;
+	color: #666666;
+}
+.event_right .pagination li a.active{
+	background: #add3f4;
+	color: #fff;
+}
+.event_right .pagination .circle{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.event_right .pagination .Ellipse a{
+	border-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+     padding: 4px 20px !important;
+}
+/*专案通道*/
+.specialcase{
+	padding: 30px 0;
+}
+
+.specialcase_left li a{
+	display: block;
+	margin-bottom: 5px;
+	border: 1px solid #add3f4;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+.specialcase_left li a.active{
+	background: #add3f4;
+}
+.specialcase_right{
+	padding: 0px 30px;
+}
+.specialcase_right .specialcase_box{
+	padding: 40px 60px;
+	border: 1px solid #add3f4;
+}
+.specialcase_head {
+	display: flex;
+	justify-content: center;
+	
+}
+.specialcase_head .line1{
+	flex: 1;
+}
+.specialcase_head .line3{
+	flex: 2;
+}
+.specialcase_head span {
+	display: inherit;
+	width: 100px;
+	color: #006cd5;
+	font-size: 24px;
+}
+.specialcase_content{
+	display: none;
+}
+.caseDetail {
+	margin: 15px 0;
+}
+.caseDetail .p1{
+	line-height: 24px;
+}
+.caseDetail .p1 a{
+	font-family: "微软雅黑";
+	color: #292929;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.caseDetail .p1 span{
+	color: #aaa;
+	font-size: 14px;
+}
+.caseDetail .p1 a:hover{
+	color: #add3f4;
+}
+.caseDetail .p3{
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 14px;
+}
+/*分頁分页pager*/
+.specialcase_right nav{
+	position: relative;
+	padding: 40px 0;
+}
+.specialcase_right nav .con{
+	position: absolute;
+	width: 100%;
+}
+.specialcase_right nav .con ul{
+	margin-left: 24%;
+	margin-top: -20px;
+}   
+.pager li>a, .pager li>span{
+	padding: 6px 12px !important;
+}
+.specialcase_right .pagination, .specialcase_right .pager{
+	/*margin: 0 !important;*/
+}
+.specialcase_right .pagination li a{
+	margin-left: 8px;
+	color: #666666;
+}
+.specialcase_right .pagination li a.active{
+	background: #add3f4;
+	color: #fff;
+}
+.specialcase_right .pagination .circle{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.specialcase_right .pagination .Ellipse a{
+	border-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+     padding: 4px 20px !important;
+}
+/*专业服务teamMore*/
+
+.teamMore{
+	padding: 30px 0;
+}
+.teamMore .topLoc p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.teamMore .topLoc p a{
+	color: #4C4C4C;
+	text-decoration: none !important;
+}
+.teamMore .topLoc p .a3{
+	color: #ccc;
+}
+.teamMoreCon{
+	margin: 0 10px !important;
+}
+.teamMore_left li {
+	padding-right: 0 !important;
+    padding-left: 0 !important; 
+}
+
+.teamMore_left li a{
+	width: 90%;
+	display: block;
+	margin-bottom: 5px;
+	border: 1px solid #add3f4;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.teamMore_left li a.active{
+	background: #add3f4;
+}
+.teamMore_right{
+}
+
+.teamMore_content{
+	display: none;
+}
+.teamMore_content .conImg img{
+	width: 100%;
+	overflow: hidden;
+}
+.teamMore_content .conTxt{
+	    margin: 30px 0;
+	padding: 40px;
+	border: 1px solid #add3f4;
+}
+.teamMore_content .conTxt h3{
+	color: #333;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.teamMore_content .conTxt .p3{
+	color: #666666;
+}
+/*专业服务-01proService*/
+.proService{
+	padding: 30px 0;
+}
+.proService .topLoc p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.proService .topLoc p a{
+	color: #4C4C4C;
+	text-decoration: none !important;
+}
+.proService .topLoc p .a3{
+	color: #ccc;
+}
+.serviceCon{
+	 margin: 30px 0;
+	padding: 35px;
+	border: 1px solid #add3f4;
+}
+.serviceCon_head .line{
+	margin-top: 30px;
+	 margin-right: 0px; 
+	 margin-left: 0px;
+}
+    
+ .serviceCon_head .line p{
+	color: #006CD5;
+	font-size: 24px;
+	padding: 0px 5px;
+}
+.serviceCon_head .line1{
+	 padding-right: 0px; 
+   padding-left: 0px;
+}
+.serviceCon_head .line1 img{
+	margin-top: 15px; 
+	    overflow: hidden;
+    width: 100%;
+}  
+   
+.serviceCon_change{
+	margin-top: 30px;
+}
+.serviceCon_change li{
+	 padding-right: 0; 
+     padding-left: 0; 
+}
+    
+.serviceCon_change li a{
+	display: block;
+	border: 1px solid #add3f4;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding: 8px;
+	text-align: center;
+	color: #292929;
+	font-size: 14px;
+	text-decoration: none;
+}
+.serviceCon_change li a:hover{
+	background: #add3f4;
+	color: #fff;
+}

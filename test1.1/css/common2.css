@@ -1,0 +1,274 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial,"Microsoft Yahei",Helvetica,Tahoma,"PingFang SC","lantinghei SC","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+}
+
+ul,li{
+	list-style: none;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+/*公共头部*/
+.topMore{
+	
+	margin: 5px;
+}
+
+.topMore .a1,.topMore span{
+	font-size: 14px;
+	color: #868686;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.search .searchIn{
+	background: #f8f8f8;
+	border-bottom: 1px solid #868686;
+	width: 160px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    font-size: 14px;
+    transition: all .5s;
+    display: none;
+    outline: none !important;
+}
+.search{
+	position: relative;
+}
+.topMore .box{
+	z-index: 999;
+    background: #f8f8f8;
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    top: 23px;
+    right: 0px;
+    display: none;
+}
+
+.topMore .box a{
+	width: 60px;
+	text-align: center;
+	padding: 4px 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.topMore .box a span{
+	padding: 0px;
+}
+.topMore .box a:hover{
+	background: #ededed;
+}
+.search_xs{
+	margin-top: 2%;
+}
+.search_xs .tickSearch{
+	color: #666;
+	font-size: 32px;
+	margin-right: 5px;
+}
+.topMore .box span{
+	display: block;
+}
+.enOrch{
+	cursor: pointer;
+	text-decoration: none;
+}
+.enOrch:hover .box{
+	display: block;
+}
+.navbar{
+	margin-bottom: 0;
+	border: none;
+	min-height: 80px;
+}
+.navbar .container{
+	    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-header{
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.navbar-header button{
+	margin-right: 10px;
+	margin-top: 2%;
+}
+.xsLogo{
+	    max-width: 85%;
+}
+.xsLogo img{
+	margin-top: 4%;
+	   height: 100%;
+	   width: 100%;
+	   overflow: hidden;
+}
+.navbar .navbar-collapse{
+	margin: 0;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 14px;
+	color: #4c4c4c !important;
+}
+.navbar-nav>li>a {
+     padding-top: 0px; 
+    padding-bottom: 12px;
+    text-align: center;
+}
+.navbar-nav>li>hr {
+	display: none;
+    width: 20px;
+    border: 2px solid #666;
+    margin: 0 auto;
+}
+.navbar-brand{
+	padding: 5px !important;
+}	
+.navbar-brand img{
+	/*width: 100%;
+	height: 100%;*/
+	overflow: hidden;
+}
+.banner {
+	margin: 0;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*公共底部*/
+.footer{
+	background: #1a1a1a;
+	padding: 40px 0;
+}
+.footer .link .p1{
+	color: #fff;
+	font-size: 20px;
+}
+.footer .link .p5 a{
+	height: 24px;
+	width: 24px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.footer .link .p5 .weixin{
+	background: url(../img/weixin.png);
+}
+.footer .link .p5 .weixin:hover{
+	background: url(../img/weixin_active.png);
+}
+.footer .link .p5 .weibo{
+	background: url(../img/weibo.png);
+}
+.footer .link .p5 .weibo:hover{
+	background: url(../img/weibo_active.png);
+}
+.footer .link .p5 .youxiang{
+	background: url(../img/youxiang.png);
+}
+.footer .link .p5 .youxiang:hover{
+	background: url(../img/youxiang_active.png);
+}
+.footer .link .p3{
+	color: #ffffff;
+	font-size: 18px;
+}
+.address .p2{
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+}
+/*foot_xs*/
+.footerXs{
+	background: #1A1A1A;
+	padding: 30px 0;
+}
+.footerXs .address p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 48px;
+	word-wrap: break-word;
+}
+.footerXs .link .p1{
+	text-align: center;
+}
+.footerXs .link .linkUs .item2{
+	padding: 0;
+}
+.footerXs .link .linkUs p{
+	color: #fff;
+	font-size: 30px;
+	padding: 5px 0px;
+	    margin-top: -20px;
+}
+.footerXs .link .linkUs img{
+	overflow: hidden;
+	width: 100%;
+}
+.footerXs .link .p3{
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.footerXs .link .share{
+	padding: 20px 0;
+}
+.footerXs .link .share a{
+	height: 64px;
+	width: 64px;
+	display: block;
+	margin: 0 auto;
+}
+.footerXs .link .share .weixin{
+	background: url(../img/weixinXs.png);
+}
+.footerXs .link .share .weixin:hover{
+	background: url(../img/weixinXsff.png);
+}
+.footerXs .link .share .weibo{
+	background: url(../img/weiboXs.png);
+}
+.footerXs .link .share .weibo:hover{
+	background: url(../img/weiboXsff.png);
+}
+.footerXs .link .share .youxiang{
+	background: url(../img/youxiangXs.png);
+}
+.footerXs .link .share .youxiang:hover{
+	background: url(../img/youxiangXsff.png);
+}
+.footerXs .footer_content .p2{
+	color: #313131;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+.footerXs .link{
+	position: relative;
+}
+.footerXs .link hr{
+	position: absolute;
+    width: 100%;
+    top: -1px;
+}
+    

@@ -1,0 +1,526 @@
+.content {
+	margin: 60px 0;
+	border: 2px solid #add3f4;
+	padding: 15px 2%;
+}
+
+.content_head p {
+	text-align: center;
+}
+
+.content_head .p1 {
+	color: #006cd5;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.content_head .p2 {
+	color: #666666;
+	font-size: 18px;
+}
+
+.content_head .line_left {
+	background: url(../img/left_line.png) no-repeat;
+}
+.content_head line_right {
+	background: url(../img/right_line.png) no-repeat;
+}
+
+.content_change li .detail {
+	padding: 20px 0;
+	width: 132px;
+	margin: 0 auto;
+}
+.content_change li .btnXs {
+	padding: 20px 0;
+	/*width: 132px;*/
+	    width: 100%;
+	margin: 0 auto;
+	
+}
+.content_change li .btnXs .boxs {
+   height: 92px;
+	width: 92px;
+	margin: 0 auto;
+}
+.content_change li .btnXs .boxs button {
+   transform: scale(0.7);
+}
+.content_change li.item1 .btnXs .boxs button {
+   background-position: -20px -20px;
+}
+.content_change li.item2 .btnXs .boxs button {
+   background-position: -178px -20px;
+}
+.content_change li.item1=3 .btnXs .boxs button {
+   background-position: -178px -20px;
+}
+.content_change li .detail p {
+	text-align: center;
+}
+
+.content_change .boxs {    /*add3f4*/
+	height: 132px;
+	width: 132px;
+}
+
+.content_change button {
+	    outline: none !important;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border-width: 0px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	
+}
+
+.content_change .item1 button {  /*006cd5*/
+	background-image: url(../img/iconSZ.png);
+	background-repeat:no-repeat ;
+	background-position: 0px 0px;
+}
+.content_change .item2 button {
+	background-image: url(../img/iconCZ.png);
+	background-repeat:no-repeat ;
+	background-position: -158px 0px;
+}
+
+.content_change .item3 button {
+	background-image: url(../img/iconZJG.png);
+	background-repeat:no-repeat ;
+	background-position: -158px 0px;
+}
+
+.desc .item {
+	display: none;
+}
+.desc_content .more{
+	padding: 0px 50px;
+}
+.desc_content .more img{
+	min-height: 260px;
+}
+.desc_content .more .text{
+	height: 260px;
+	padding: 50px 0;
+}
+.desc_content .more .text .p1{
+	font-size: 24px;
+	line-height: 24px;
+	color: #292929;
+}
+.desc_content .more .text .p3{
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 50px;
+}
+.desc_content .more .text .p5{
+	font-size: 14px;
+	color: #666666;
+}
+.desc_content .more .text .p5 span{
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+}
+.desc_content .p7 {
+	margin:20px 0px 20px 50px;
+	height: 1px;
+	background: url(../img/line.png) no-repeat;
+	clear: both;
+}
+/*xs desc_content*/
+.desc_content .conXs{
+	padding: 0 !important;
+	position: relative;
+}
+.desc_content .conXs .conXs_img img{
+	width: 100%;
+}
+.desc_content .conXs .conXs_text1{
+	width: 100%;
+	bottom: 65px;
+	padding: 5px 15px;
+	position: absolute;
+	background: url(../img/teamXs.png);
+}
+.desc_content .conXs .conXs_text1 .p1{
+	color: #e6e6eb;
+	font-size: 30px;
+	line-height: 38px;
+}
+.desc_content .conXs .conXs_text1 .p3{
+	color: #e6e6eb;
+	font-size: 20px;
+	line-height: 38px;
+}
+.desc_content .conXs .conXs_text2{
+	width: 100%;
+	background: #E6E6E6;
+}
+.desc_content .conXs .conXs_text2 .p5{
+	color: #666;
+	font-size: 20px;
+	margin: 10px !important;
+	word-wrap: break-word;
+}
+.desc_content .conXs .conXs_text2 .p5 span{
+	color: #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+.desc_content .conXs{
+	padding: 15px;
+}
+ /*分頁分页pager*/
+.desc nav{
+	position: relative;
+	padding: 40px 0;
+}
+.desc nav .con{
+	position: absolute;
+	width: 100%;
+}
+.desc nav .con ul{
+	margin-left: 24%;
+	margin-top: -20px;
+}   
+.pager li>a, .pager li>span{
+	padding: 6px 12px !important;
+}
+.desc .pagination, .desc .pager{
+	/*margin: 0 !important;*/
+}
+.desc .pagination li a{
+	margin-left: 8px;
+	color: #666666;
+}
+.desc .pagination li a.active{
+	background: #add3f4;
+	color: #fff;
+}
+.desc .pagination .circle{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.desc .pagination .Ellipse a{
+	border-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+     padding: 4px 20px !important;
+}
+/*竹辉简介*/
+.description{
+	margin: 30px 0;
+	padding: 20px;
+	border: 1px solid #ADD3F4;
+}
+
+.description_head{
+	margin-bottom: 30px;
+}
+.description_head .line{
+	margin-top: 30px;
+	 margin-right: 0px; 
+	 margin-left: 0px;
+}
+    
+ .description_head .line p{
+	color: #006CD5;
+	font-size: 24px;
+	padding: 0px 5px;
+}
+.description_head .line1{
+	 padding-right: 0px; 
+   padding-left: 0px;
+}
+.description_head .line1 img{
+	margin-top: 15px; 
+	    overflow: hidden;
+    width: 100%;
+}
+
+
+.description .textFirst p {
+	line-height: 30px;
+	color: #666;
+	font-size: 16px;
+}
+.description .textFirst p span{
+	font-weight: bold;
+}
+.honor{
+	margin-top: 20px;
+}
+.honor .p3{
+	font-size: 16px;
+	color: #006CD5;
+	font-weight: bold;
+}
+.honor .honorImg .del p{
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	text-align: center;
+}
+.honor .honorImg .del img{
+	width: 100%;
+	overflow: hidden;
+}
+.office{
+	margin-top: 20px;
+}
+.office .p5{
+	font-size: 16px;
+	color: #006CD5;
+	font-weight: bold;
+}
+.officeContent{
+	overflow: hidden;
+	margin: 50px 0;
+}
+.officeContent .officeLeft{
+	height: 100%;
+}
+
+.officeLeft{
+	padding: 20px;
+	background: #fff;
+}
+.officeLeft hr{
+	margin-top: 0px; 
+	color: #d3d3d3;
+}
+.officeLeft .p3{
+	font-size: 16px;
+	color: #292929;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.locationLeft .text{
+	padding-bottom: 20px;
+}
+.officeLeft .text .p1{
+	font-size: 14px;
+	color: #666666;
+	line-height: 15px;
+}
+.officeLeft .text .p3{
+	font-size: 16px;
+	color: #292929;
+}
+.officeRight{
+	height: 500px;
+	overflow: hidden;
+	padding: 0;
+}
+.locationRight img{
+	width: 100%;
+	overflow: hidden;
+}
+.textTh{
+	margin-top: 20px;
+}
+.textTh .p5{
+	font-size: 16px;
+	color: #006CD5;
+	font-weight: bold;
+}
+.textTh .p5 img{
+	vertical-align: initial;
+}
+
+.textTh .p1{
+	line-height: 30px;
+	color: #666;
+	font-size: 16px;
+}
+/*文章详情页*/
+.articleMore{
+	margin: 20px 0;
+}
+.articleMore .topLoc p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.articleMore .topLoc p a{
+	color: #4C4C4C;
+	text-decoration: none !important;
+}
+.articleMore  .topLoc p .a3{
+	color: #ccc;
+}
+.articleMore .artCon{
+	padding: 40px;
+	border: 1px solid #ADD3F4;
+}
+.articleMore .artText .p3{
+	color: #4C4C4C;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.articleMore .artText .p5{
+	color: #ADD3F4;
+	font-size: 14px;
+	line-height: 24px;
+}
+.articleMore .artText .p5 span{
+	color: #4C4C4C;
+	
+}
+.articleMore .artText .p1{
+	color: #666;
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.articleMore .artText .img{
+	text-align: center;
+}
+.articleMore .artText img{
+	overflow: hidden;
+}
+.artCon .hr1{
+	background-color: #add3f4;
+    height: 1px;
+    clear: both;
+}    
+.artShare{
+	padding: 25px 0;
+}
+.artShare p{
+	text-align: center;
+    color: #add3f4;
+}
+.artLink .p1{
+	color: #666666;
+	font-size: 18px;
+	line-height: 24px;
+}
+.artLink hr{
+	background-color: #d3d3d3;
+    height: 2px;
+}
+.artLinkTe p{
+	font-size: 14px;
+	line-height: 24px;
+	    padding-bottom: 10px;
+	border-bottom: 1px dashed #666;
+}
+.artLinkTe p a{
+	color: #666666;
+	text-decoration: none;
+}
+.artLinkTe p a:hover{
+	color: #add3f4;
+}    
+.artPage li{
+	margin-left: 10px;
+}
+.artPage li a{
+	color: #add3f4;
+	border: 1px solid #add3f4;
+}
+.artPage li a:hover{
+	color: #fff;
+}
+/*合伙人 / 顾问*/
+.partner{
+	padding: 30px 0;
+}
+
+.partner .partnerHead p{
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+}
+.partner .partnerHead hr{
+	background-color: #d3d3d3;
+    height: 2px;
+}
+.partnerCon img{
+	height: 182px;
+	overflow: hidden;
+	padding-right: 0px !important;
+}
+
+.partnerCon .ConTxt{
+	padding: 20px;
+	height: 182px;
+	border: 1px solid #add3f4;
+}
+.partnerCon .ConTxt .p1{
+	color: #292929;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.partnerCon .ConTxt .p3{
+	color: #666666;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+.partnerCon .ConTxt .p5{
+	color: #666666;
+	font-size: 14px;
+}
+.partnerCon .ConTxt .p5 span{
+	font-weight: bold;
+}
+/*竹辉招聘*/
+.recruit{
+	margin: 30px 0;
+	padding: 20px;
+	border: 1px solid #ADD3F4;
+}
+
+.event_head{
+	margin-bottom: 30px;
+}
+.event_head .line{
+	margin-top: 30px;
+	 margin-right: 0px; 
+	 margin-left: 0px;
+}
+    
+ .event_head .line p{
+	color: #006CD5;
+	font-size: 24px;
+	padding: 0px 5px;
+}
+.event_head .line1{
+	 padding-right: 0px; 
+   padding-left: 0px;
+}
+.event_head .line1 img{
+	margin-top: 15px; 
+	    overflow: hidden;
+    width: 100%;
+} 
+.recruitCon{
+	padding: 30px;
+}
+.recruitCon .p1{
+	color: #4C4C4C;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.recruitCon .p1 span{
+	font-weight: bold;
+}
+.recruitCon .p3{
+	color: #666;
+	font-size: 16px;
+	line-height: 16px;
+}
+.recruitCon .p5{
+	color: #666;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 20px 0;
+}

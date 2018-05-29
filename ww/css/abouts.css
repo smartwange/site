@@ -1,0 +1,442 @@
+* {
+  box-sizing: content-box !important;
+}
+p {
+  margin: 0 !important;
+}
+.aboutli {
+  overflow: hidden;
+  margin-top: 0.2rem;
+}
+.aboutli .btn p span {
+  color: #000000;
+  font-size: 0.34rem;
+  line-height: 0.5rem;
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.aboutli .btn p span.active {
+  background: #fff;
+  color: #016aab;
+  border-bottom: .02rem solid #016aab;
+}
+.aboutli .contents {
+  display: none;
+}
+.aboutli .contents.active {
+  display: block;
+}
+.aboutli .contents .tittle {
+  clear: both;
+}
+.aboutli .contents .tittle p {
+  padding-top: .15rem;
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+}
+.aboutli .contents .con {
+  padding: 0.1rem 0;
+}
+.aboutli .contents .con p {
+  color: #666666;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+}
+.aboutli .contents .con img {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+.aboutli .contents .box {
+  padding: 0.1rem 0;
+  position: relative;
+  height: 0.48rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.aboutli .contents .box:last-child {
+  border-bottom: none;
+}
+.aboutli .contents .box a {
+  float: left;
+  height: 0.48rem;
+  max-width: 5rem;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #313131;
+  display: block;
+}
+.aboutli .contents .box a img {
+  margin-top: 0.1rem;
+  display: block;
+  float: left;
+  height: 0.16rem;
+  width: 0.16rem;
+  overflow: hidden;
+}
+.aboutli .contents .box a:hover {
+  color: #016AAB;
+}
+.aboutli .contents .box span {
+  display: block;
+  color: #999;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  position: absolute;
+  right: 0.1rem;
+  float: right;
+}
+.speck {
+  margin-top: 0.4rem;
+}
+.speck .tittle .swiper-container {
+  width: 100%;
+  height: .5rem;
+}
+.speck .tittle .swiper-container .more .morenav a {
+  width: 1.7rem;
+  margin: 0 auto;
+}
+.speck .tittle .swiper-container .more .morenav .arrow {
+  font-size: .5rem;
+  position: absolute;
+  top: 0;
+  right: .3rem;
+  line-height: .5rem;
+}
+.speck .tittle .swiper-container .more .morenav ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: #1a8dd3;
+  max-height: 3rem;
+  overflow: hidden;
+  display: none;
+}
+.speck .tittle .swiper-container .more .morenav ul.active {
+  display: block;
+}
+.speck .tittle .swiper-container .more .morenav ul li {
+  height: 0.3rem !important;
+}
+.speck .tittle .swiper-container .more .morenav ul li.active a {
+  background: #006aab;
+}
+.speck .tittle .swiper-container .more .morenav ul li a {
+  color: #fff;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  width: 100%;
+}
+.speck .tittle .firstbar {
+  position: relative;
+  text-align: center;
+  height: 0.5rem;
+  background: #F9F9F9;
+  width: 50% !important;
+}
+.speck .tittle .firstbar.swiper-slide-active a {
+  color: #016AAB;
+}
+.speck .tittle .firstbar.swiper-slide-active span {
+  color: #016AAB;
+  border-color: transparent #016AAB;
+}
+.speck .tittle .firstbar a {
+  display: block;
+  line-height: .5rem;
+  font-size: .34rem;
+  color: #000;
+}
+.speck .tittle .firstbar .triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent #ccc;
+  border-width: 0 0.1rem 0.1rem 0;
+  border-style: solid;
+  top: 0;
+  right: 0;
+}
+.speck .content {
+  box-sizing: content-box !important;
+}
+.speck .content .labour {
+  padding: 0.1rem;
+  box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+  margin-top: 0.3rem;
+}
+.speck .content .labour .tittle p {
+  width: 100%;
+  border-bottom: 2px solid #eeeeee;
+  height: 0.4rem;
+}
+.speck .content .labour .tittle p img {
+  display: block;
+  float: left;
+  max-height: 0.44rem;
+  max-width: 0.44rem;
+  overflow: hidden;
+}
+.speck .content .labour .tittle p span {
+  float: left;
+  display: block;
+  color: #1b1b1b;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  width: 2.3rem;
+  padding-left: 0.1rem;
+  border-bottom: 3px solid #016aac;
+}
+.speck .content .labour .tittle p a {
+  float: right;
+  display: block;
+  color: #959595;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+}
+.speck .content .labour .tittle p a:hover {
+  color: #016aac;
+}
+.speck .content .labour ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.speck .content .labour ul li {
+  padding: 0.1rem 0;
+  height: 0.4rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.speck .content .labour ul li:last-child {
+  border-bottom: none;
+}
+.speck .content .labour ul li a {
+  display: block;
+  float: left;
+  line-height: 0.4rem;
+  font-size: 0.28rem;
+  color: #313131;
+  max-width: 5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  max-height: 0.4rem;
+  text-overflow: ellipsis;
+}
+.speck .content .labour ul li a img {
+  height: 0.16rem;
+  overflow: hidden;
+}
+.speck .content .labour ul li a:hover {
+  color: #016aac;
+}
+.speck .content .labour ul li span {
+  float: right;
+  line-height: 0.4rem;
+  color: #cccccc;
+  font-size: 0.24rem;
+}
+.speck .content .text {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+}
+.speck .content .text .p1 {
+  color: #313131;
+  font-size: 0.32rem;
+  line-height: 0.5rem;
+  max-height: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.speck .content .text .p3 a {
+  display: block;
+  color: #535353;
+  font-size: 0.28rem;
+  line-height: 0.4rem;
+  max-height: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.speck .content .text .p3 a:hover {
+  color: #016aab;
+  text-decoration: underline;
+}
+.speck .content .text .p5 {
+  line-height: 0.3rem;
+  padding-top: 0.1rem;
+  text-align: right;
+}
+.speck .content .text .p5 a {
+  display: block;
+  color: #016aab;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.speck .content .text .small {
+  float: right;
+  padding: 0.1rem;
+}
+.speck .content .text .small .xin {
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  height: 0.17rem;
+  width: 0.17rem;
+  display: block;
+  float: left;
+}
+.speck .content .text .small .calender {
+  margin-left: .3rem;
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  display: block;
+  width: 0.21rem;
+  height: 0.17rem;
+  float: left;
+}
+.speck .content .text .small span {
+  float: left;
+  display: block;
+  color: #cccccc;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.newsmore {
+  padding: 0.5rem 0;
+}
+.newsmore .text {
+  padding: 0.1rem 0;
+  box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+  box-sizing: border-box;
+  margin-top: 0.2rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.newsmore .text .p1 {
+  padding: 0 0.1rem;
+  color: #313131;
+  font-size: 0.32rem;
+  line-height: 0.5rem;
+  max-height: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.newsmore .text .p3 {
+  padding: 0 0.1rem;
+}
+.newsmore .text .p3 a {
+  display: block;
+  color: #999999;
+  font-size: 0.28rem;
+  line-height: 0.4rem;
+  max-height: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.newsmore .text .p3 a:hover {
+  color: #016aab;
+  text-decoration: underline;
+}
+.newsmore .text .small {
+  float: right;
+  padding: 0.1rem;
+}
+.newsmore .text .small .xin {
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  height: 0.17rem;
+  width: 0.17rem;
+  display: block;
+  float: left;
+}
+.newsmore .text .small .calender {
+  margin-left: .3rem;
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  display: block;
+  width: 0.21rem;
+  height: 0.17rem;
+  float: left;
+}
+.newsmore .text .small span {
+  float: left;
+  display: block;
+  color: #cccccc;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.textdetail .tittle {
+  overflow: hidden;
+  clear: both;
+  position: relative;
+}
+.textdetail .tittle p {
+  padding-top: .15rem;
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+}
+.textdetail .tittle .small {
+  float: right;
+  padding: 0.1rem;
+}
+.textdetail .tittle .small .xin {
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  height: 0.17rem;
+  width: 0.17rem;
+  display: block;
+  float: left;
+}
+.textdetail .tittle .small .calender {
+  margin-left: .3rem;
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  display: block;
+  width: 0.21rem;
+  height: 0.17rem;
+  float: left;
+}
+.textdetail .tittle .small span {
+  float: left;
+  display: block;
+  color: #cccccc;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.textdetail .con {
+  padding: 0.1rem 0;
+}
+.textdetail .con p {
+  color: #666666;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+}
+.textdetail .con img {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+.textdetail .page .p3 {
+  padding: 0.1rem 0;
+  color: #666666;
+  font-size: 0.24rem;
+}
+.textdetail .page .p3 a {
+  color: #666666;
+  font-size: 0.24rem;
+}
+.textdetail .page .p3 a:hover {
+  color: #006AAB;
+}

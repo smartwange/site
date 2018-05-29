@@ -1,0 +1,468 @@
+*{
+    box-sizing: content-box !important;
+}
+p{
+    margin: 0 !important;
+}
+.aboutli{
+    overflow: hidden;
+    margin-top: 0.2rem;
+    .btn{
+        p{
+            span{
+                color: #000000;
+                font-size: 0.34rem;
+                line-height: 0.5rem;
+                width: 50%;
+                display: block;
+                float: left;
+                text-align: center;
+                &.active{
+                    background: #fff;
+                    color: #016aab;
+                    border-bottom: .02rem solid #016aab;
+                }
+            }
+        }
+    }
+    .contents{
+        display: none;
+        &.active{
+            display: block;
+        }
+        .tittle{
+                clear: both;
+            p{
+                padding-top: .15rem;
+                text-align: center;
+                color: #1b1b1b;
+                font-size: 0.32rem;
+                line-height: 0.4rem;
+            }
+        }
+        .con{
+                padding: 0.1rem 0;
+            p{
+                color: #666666;
+                font-size: 0.28rem;
+                line-height: 0.36rem;
+            }
+            img{
+                text-align: center;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+        .box{
+            padding: 0.1rem 0;
+            position: relative;
+            height: 0.48rem;
+            border-bottom: 1px solid #e5e5e5;
+            &:last-child{
+                border-bottom: none;
+            }
+            a{
+                float: left;
+                height: 0.48rem;
+                max-width: 5rem;
+                font-size: 0.28rem;
+                line-height: 0.36rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #313131;
+                display: block;
+                img{
+                    margin-top: 0.1rem;
+                    display: block;
+                    float: left;
+                    height: 0.16rem;
+                    width: 0.16rem;
+                    overflow: hidden;
+                }
+                &:hover{
+                    color: #016AAB;
+                }
+            }
+            span{
+                display: block;
+                color: #999;
+                font-size: 0.24rem;
+                line-height: 0.36rem;
+                position: absolute;
+                right: 0.1rem;
+                float: right;
+            }
+        }
+    }
+}
+//李沉说法
+.speck{
+    margin-top: 0.4rem;
+    .tittle{
+        .swiper-container {
+          width: 100%;
+          height: .5rem;
+          .more{
+              .morenav{
+                  a{
+                      width: 1.7rem;
+                      margin: 0 auto;
+                  }
+                  .arrow{
+                        font-size: .5rem;
+                        position: absolute;
+                        top: 0;
+                        right: .3rem;
+                        line-height: .5rem;
+                    }
+                    ul{
+                        padding: 0 !important;
+                        margin: 0 !important;
+                        background: #1a8dd3;
+                        max-height:3rem;
+                        overflow: hidden;
+                        display: none;
+                        &.active{
+                            display: block;
+                        }
+                       li{
+                            height: 0.3rem !important;
+                            &.active a{
+                                background: #006aab;
+                            }
+                            a{
+                                color: #fff;
+                                line-height: 0.3rem;
+                                font-size: 0.24rem;
+                                width: 100%;
+                            }
+                        }
+                    }
+              }
+              
+          }
+        }
+        .firstbar {
+            position: relative;
+          text-align: center;
+          height: 0.5rem;
+          background: #F9F9F9;
+          width: 50% !important;
+          &.swiper-slide-active a{
+              color: #016AAB;
+          }
+          &.swiper-slide-active span{
+              color: #016AAB;
+              border-color: transparent #016AAB;
+          }
+          a{
+              display: block;
+              line-height: .5rem;
+              font-size: .34rem;
+              color: #000;
+          }
+          .triangle{
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-color: transparent #ccc;
+              border-width: 0 0.1rem 0.1rem 0;
+              border-style: solid;
+              top: 0;
+              right: 0; 
+          }
+        }
+    }
+    .content{
+        box-sizing: content-box !important;
+        .labour{
+            padding: 0.1rem;
+            box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+            margin-top: 0.3rem;
+            .tittle{
+                p{
+                    width: 100%;
+                    border-bottom: 2px solid #eeeeee;
+                    height: 0.4rem;
+                    img{
+                        display: block;
+                        float: left;
+                        max-height: 0.44rem;
+                        max-width: 0.44rem;
+                        overflow: hidden;
+                    }
+                    span{
+                        float: left;
+                        display: block;
+                        color: #1b1b1b;
+                        font-size: 0.32rem;
+                        line-height: 0.4rem;
+                        width: 2.3rem;
+                         padding-left: 0.1rem;
+                         border-bottom: 3px solid #016aac;
+                    }
+                    a{
+                        float: right;
+                        display: block;
+                        color: #959595;
+                        font-size: 0.24rem;
+                        line-height: 0.4rem;
+                        &:hover{
+                            color: #016aac;
+                        }
+                    }
+                } 
+            }
+            ul{
+                margin: 0 !important;
+                padding: 0 !important;
+                li{
+                    padding: 0.1rem 0;
+                    height: 0.4rem;
+                    border-bottom: 1px solid #eeeeee;
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                    a{
+                        display: block;
+                        float: left;
+                        line-height: 0.4rem;
+                        font-size: 0.28rem;
+                        color: #313131;
+                        max-width: 5rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        max-height: 0.4rem;
+                        text-overflow: ellipsis;
+                        img{
+                            height: 0.16rem;
+                            height: 0.16rem;
+                            overflow: hidden;
+                        }
+                        &:hover{
+                            color: #016aac;
+                        }
+                    }
+                    span{
+                        float: right;
+                        line-height: 0.4rem;
+                        color: #cccccc;
+                        font-size: 0.24rem;
+                        
+                    }
+                }
+            }
+        }
+        .text{
+          box-sizing: border-box;
+          padding-top: 0.2rem;
+           position: relative;
+           width: 100%;
+           overflow: hidden;
+           border-bottom: 1px solid #dcdcdc;
+           .p1{
+               color: #313131;
+               font-size: 0.32rem;
+               line-height: 0.5rem;
+               max-height: 0.5rem;
+               white-space: nowrap;
+               overflow: hidden;
+               text-overflow: ellipsis;
+           }
+           .p3{
+               a{
+                   display: block;
+                   color: #535353;
+                   font-size: 0.28rem;
+                   line-height: 0.4rem;
+                   max-height: 0.8rem;
+                   overflow: hidden;
+                   text-overflow: ellipsis;
+                   &:hover{
+                       color: #016aab;
+                       text-decoration: underline;
+                   }
+               }
+           }
+           .p5{
+               text-align: right;
+                line-height: 0.3rem;
+                padding-top: 0.1rem;
+              a{
+                 display: block;
+                color: #016aab;
+                font-size: 0.24rem;
+                line-height: 0.3rem;
+              } 
+               text-align: right;
+           }
+           .small{
+                float: right;
+                    padding: 0.1rem;
+               .xin{
+                   margin-right: 0.06rem;
+                    margin-top: 0.08rem;
+                    height: 0.17rem;
+                    width: 0.17rem;
+                    display: block;
+                    float: left;
+               }
+               .calender{
+                   margin-left: .3rem;
+                   margin-right: 0.06rem;
+                   margin-top: 0.08rem;
+                   display: block;
+                   width: 0.21rem;
+                   height: 0.17rem;
+                   float: left;
+               }
+               span{
+                   float: left;
+                    display: block;
+                    color: #cccccc;
+                    font-size: 0.24rem;
+                    line-height: 0.3rem;
+               }
+           }
+       }
+    }
+}
+//最新动态
+.newsmore{
+    padding: 0.5rem 0;
+    .text{
+        padding: 0.1rem 0;
+      box-shadow:0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+      box-sizing: border-box;
+      margin-top: 0.2rem;
+       position: relative;
+       width: 100%;
+       overflow: hidden;
+       .p1{
+           padding: 0 0.1rem;
+           color: #313131;
+           font-size: 0.32rem;
+           line-height: 0.5rem;
+           max-height: 0.5rem;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+       .p3{
+            padding: 0 0.1rem;
+           a{
+               display: block;
+               color: #999999;
+               font-size: 0.28rem;
+               line-height: 0.4rem;
+               max-height: 0.8rem;
+               overflow: hidden;
+               text-overflow: ellipsis;
+               &:hover{
+                   color: #016aab;
+                   text-decoration: underline;
+               }
+           }
+       }
+       
+       .small{
+            float: right;
+                padding: 0.1rem;
+           .xin{
+               margin-right: 0.06rem;
+                margin-top: 0.08rem;
+                height: 0.17rem;
+                width: 0.17rem;
+                display: block;
+                float: left;
+           }
+           .calender{
+               margin-left: .3rem;
+               margin-right: 0.06rem;
+               margin-top: 0.08rem;
+               display: block;
+               width: 0.21rem;
+               height: 0.17rem;
+               float: left;
+           }
+           span{
+               float: left;
+                display: block;
+                color: #cccccc;
+                font-size: 0.24rem;
+                line-height: 0.3rem;
+           }
+       }
+   }
+}
+//法律法规详情页
+.textdetail{
+    .tittle{
+            overflow: hidden;
+            clear: both;
+            position: relative;
+        p{
+            padding-top: .15rem;
+            text-align: center;
+            color: #1b1b1b;
+            font-size: 0.32rem;
+            line-height: 0.4rem;
+        }
+        .small{
+            float: right;
+                padding: 0.1rem;
+           .xin{
+               margin-right: 0.06rem;
+                margin-top: 0.08rem;
+                height: 0.17rem;
+                width: 0.17rem;
+                display: block;
+                float: left;
+           }
+           .calender{
+               margin-left: .3rem;
+               margin-right: 0.06rem;
+               margin-top: 0.08rem;
+               display: block;
+               width: 0.21rem;
+               height: 0.17rem;
+               float: left;
+           }
+           span{
+               float: left;
+                display: block;
+                color: #cccccc;
+                font-size: 0.24rem;
+                line-height: 0.3rem;
+           }
+       }
+    }
+    .con{
+            padding: 0.1rem 0;
+        p{
+            color: #666666;
+            font-size: 0.28rem;
+            line-height: 0.36rem;
+        }
+        img{
+            text-align: center;
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+    .page{
+        .p3{
+            padding: 0.1rem 0;
+            color: #666666;
+            font-size: 0.24rem;
+            a{
+                color: #666666;
+               font-size: 0.24rem;
+               &:hover{
+                   color: #006AAB;
+               }
+            }
+        }
+    }
+}

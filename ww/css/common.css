@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 100px;
+  font-family: "微软雅黑";
+}
+body {
+  background: #f7f7f7;
+}
+.container {
+  width: 6.8rem;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.banner img {
+  max-height: 3rem;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+.searchs {
+  z-index: 999;
+  position: absolute;
+  width: 5.4rem;
+  float: right;
+  right: 0.8rem;
+  top: 0.12rem;
+  height: 0.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0.25rem;
+}
+.searchs input {
+  outline: none;
+  font-size: 0.24rem;
+  border: none;
+  background: none;
+}
+.searchs #search {
+  float: left;
+  padding-left: 0.1rem;
+  display: block;
+  width: 84%;
+  line-height: 0.5rem;
+}
+.searchs #submit {
+  line-height: .5rem;
+  height: 0.3rem;
+  width: 0.3rem;
+  display: block;
+  float: right;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+  background-image: url(../img/searchs.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer {
+  clear: both;
+  background: #262525;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+.footer p {
+  margin: 0 !important;
+}
+.footer .tittle {
+  padding: 0.1rem 0;
+  overflow: hidden;
+}
+.footer .tittle img {
+  display: block;
+  float: left;
+}
+.footer .tittle .img1 {
+  height: 0.6rem;
+  width: 0.6rem;
+  overflow: hidden;
+}
+.footer .tittle .img3 {
+  padding-left: 0.2rem;
+  height: 0.6rem;
+  width: 2.6rem;
+  overflow: hidden;
+}
+.footer .link {
+  padding: 0.2rem 0 0.1rem;
+  overflow: hidden;
+  padding-top: 0.2rem;
+}
+.footer .link .tittles p {
+  clear: both;
+  line-height: 0.3rem;
+}
+.footer .link .tittles .p1 {
+  color: #fff;
+  font-size: 0.28rem;
+}
+.footer .link .tittles .p3 {
+  color: #fff;
+  font-size: 0.18rem;
+}
+.footer .link .con img {
+  margin-right: .1rem;
+  margin-top: 0.1rem;
+  float: left;
+  max-height: 0.2rem;
+  max-width: 0.2rem;
+  overflow: hidden;
+  display: block;
+}
+.footer .link .con p {
+  display: block;
+  width: 48%;
+  padding-right: 1%;
+  float: left;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+}
+.footer .link .con p.p1 {
+  width: 100%;
+  clear: both;
+  color: #fff;
+  font-size: 0.24rem;
+  font-weight: bold;
+  line-height: .42rem;
+}
+.footer .link .con p.p1 span {
+  font-weight: 200;
+  font-size: 0.24rem;
+}
+.footer .link .con p.p1 a {
+  padding-right: .2rem;
+  color: #fff;
+  font-size: 0.24rem;
+  font-weight: 200;
+}
+.footer .more {
+  background: #1b1b1b;
+  height: 0.6rem;
+}
+.footer .more p {
+  text-align: center;
+  color: #ccc;
+  font-size: 0.24rem;
+  line-height: 0.6rem;
+}

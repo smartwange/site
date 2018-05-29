@@ -1,0 +1,230 @@
+
+//news
+.news{
+margin-top: 0.3rem;
+   .news_top{
+       width: 100%;
+       margin-bottom: 0.2rem;
+       overflow: hidden;
+       ul{
+           padding: 0 !important;
+           margin: 0 !important;
+       }
+       li{
+           width: 100%/4;
+           float: left;
+           text-align: center;
+           .img_bg{
+               margin: 0 auto;
+               height: 1.2rem;
+               width: 1.2rem;
+               background: #fff;
+               border-radius: 50%;
+               cursor: pointer;
+               img{
+                   max-height: 0.7rem;
+                  max-width: 0.7rem;
+                  overflow: hidden;
+                  box-sizing: content-box;
+                margin: 0 auto;
+                padding-top: 0.26rem;
+                display: block;
+               }
+           }
+//         &:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8){
+//                 img{
+//                    padding-top: 0.42rem; 
+//                 }
+//         }
+           &.active .img_bg{
+               background: #add3f4;
+           }
+           p{
+                color: #016aab;
+                font-size: 0.24rem;
+                line-height: 0.4rem;
+                margin: 0 !important;
+           }
+       }
+   }
+   .news_bottom{
+       overflow: hidden;
+       p{
+           margin: 0 !important;
+       }
+       .content{
+           display: none;
+           .p7{
+               text-align: center;
+               a{
+                    display: block;
+                    color: #016aab;
+                    font-size: 0.16rem;
+                    line-height: 0.32rem;
+                    width: 1.2rem;
+                    margin: 0 auto;
+                    border-radius: 0.24rem;
+                    border: 1px solid #0e90d2;
+               }
+           }
+           &.active{
+               display: block;
+           }
+           .box{
+               padding-bottom: 0.2rem;
+               overflow: hidden;
+               display: flex;
+               justify-content:space-between;
+               .images{
+                   width: 1.8rem;
+                   overflow: hidden;
+                   display: block;
+                   height: 1.5rem;
+               }
+               .text{
+                  box-sizing: border-box;
+                  padding-left: 0.08rem;
+                   position: relative;
+                   width: 4.8rem;
+                   overflow: hidden;
+                   border-bottom: 1px solid #dcdcdc;
+                   .p1{
+                       color: #016aab;
+                       font-size: 0.32rem;
+                       line-height: 0.4rem;
+                       max-height: 0.4rem;
+                       white-space: nowrap;
+                       overflow: hidden;
+                       text-overflow: ellipsis;
+                   }
+                   .p3{
+                       a{
+                           display: block;
+                           color: #626262;
+                           font-size: 0.24rem;
+                           line-height: 0.3rem;
+                           max-height: 0.6rem;
+                           overflow: hidden;
+                           text-overflow: ellipsis;
+                           &:hover{
+                               color: #016aab;
+                               text-decoration: underline;
+                           }
+                       }
+                   }
+                   .p5{
+                       text-align: right;
+                        line-height: 0.3rem;
+                        padding-top: 0.1rem;
+                      a{
+                         display: block;
+                        color: #016aab;
+                        font-size: 0.24rem;
+                        line-height: 0.3rem;
+                      } 
+                       text-align: right;
+                   }
+                   .small{
+                        bottom: 0.09rem;
+                        left: 0.05rem;
+                        position: absolute;
+                       .xin{
+                           margin-right: 0.06rem;
+                            margin-top: 0.08rem;
+                            height: 0.17rem;
+                            width: 0.17rem;
+                            display: block;
+                            float: left;
+                       }
+                       .calender{
+                           margin-left: .3rem;
+                           margin-right: 0.06rem;
+                           margin-top: 0.08rem;
+                           display: block;
+                           width: 0.21rem;
+                           height: 0.17rem;
+                           float: left;
+                       }
+                       span{
+                           float: left;
+                            display: block;
+                            color: #cccccc;
+                            font-size: 0.24rem;
+                            line-height: 0.3rem;
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+.abouts{
+    .box{
+        margin: 0.15rem 0;
+        overflow: hidden;
+        padding: 0.15rem;
+        background: #fff;
+        box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+        p{
+            margin: 0 0 0.1rem 0 !important;
+        }
+        .tittle{
+            p{
+                font-size: 0.32rem;
+                color: #292929;
+                line-height: 0.36rem;
+                border-bottom: 1px solid #f4f4f4;
+            }
+        }
+        .con{
+            p{
+               font-size: 0.28rem;
+                color: #666666;
+                line-height: 0.4rem; 
+                max-height: 1.2rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            a.links{
+                display: block;
+                float: right;
+                color: #016aab;
+                font-size: 0.24rem;
+                line-height: 0.3rem; 
+            }
+            ul{
+                max-height: 1.2rem;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                li{
+                    position: relative;
+                    a{
+                        display: block;
+                        font-size: 0.28rem;
+                        color: #666666;
+                        line-height: 0.4rem;
+                        max-width: 5.3rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        &:hover{
+                            color: #016AAB;
+                        }
+                    }
+                    span{
+                        position: absolute;
+                        display: block;
+                        float: right;
+                        color: #999;
+                        font-size: 0.24rem;
+                        line-height: 0.4rem; 
+                        top: 0;
+                        right: 0.1rem;
+                    }
+                }
+            }
+        }
+    }
+}

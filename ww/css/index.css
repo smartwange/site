@@ -1,0 +1,215 @@
+.news {
+  margin-top: 0.3rem;
+}
+.news .news_top {
+  width: 100%;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+}
+.news .news_top ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.news .news_top li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.news .news_top li .img_bg {
+  margin: 0 auto;
+  height: 1.2rem;
+  width: 1.2rem;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.news .news_top li .img_bg img {
+  max-height: 0.7rem;
+  max-width: 0.7rem;
+  overflow: hidden;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding-top: 0.26rem;
+  display: block;
+}
+.news .news_top li.active .img_bg {
+  background: #add3f4;
+}
+.news .news_top li p {
+  color: #016aab;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  margin: 0 !important;
+}
+.news .news_bottom {
+  overflow: hidden;
+}
+.news .news_bottom p {
+  margin: 0 !important;
+}
+.news .news_bottom .content {
+  display: none;
+}
+.news .news_bottom .content .p7 {
+  text-align: center;
+}
+.news .news_bottom .content .p7 a {
+  display: block;
+  color: #016aab;
+  font-size: 0.16rem;
+  line-height: 0.32rem;
+  width: 1.2rem;
+  margin: 0 auto;
+  border-radius: 0.24rem;
+  border: 1px solid #0e90d2;
+}
+.news .news_bottom .content.active {
+  display: block;
+}
+.news .news_bottom .content .box {
+  padding-bottom: 0.2rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.news .news_bottom .content .box .images {
+  width: 1.8rem;
+  overflow: hidden;
+  display: block;
+  height: 1.5rem;
+}
+.news .news_bottom .content .box .text {
+  box-sizing: border-box;
+  padding-left: 0.08rem;
+  position: relative;
+  width: 4.8rem;
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+}
+.news .news_bottom .content .box .text .p1 {
+  color: #016aab;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  max-height: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news .news_bottom .content .box .text .p3 a {
+  display: block;
+  color: #626262;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  max-height: 0.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news .news_bottom .content .box .text .p3 a:hover {
+  color: #016aab;
+  text-decoration: underline;
+}
+.news .news_bottom .content .box .text .p5 {
+  line-height: 0.3rem;
+  padding-top: 0.1rem;
+  text-align: right;
+}
+.news .news_bottom .content .box .text .p5 a {
+  display: block;
+  color: #016aab;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.news .news_bottom .content .box .text .small {
+  bottom: 0.09rem;
+  left: 0.05rem;
+  position: absolute;
+}
+.news .news_bottom .content .box .text .small .xin {
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  height: 0.17rem;
+  width: 0.17rem;
+  display: block;
+  float: left;
+}
+.news .news_bottom .content .box .text .small .calender {
+  margin-left: .3rem;
+  margin-right: 0.06rem;
+  margin-top: 0.08rem;
+  display: block;
+  width: 0.21rem;
+  height: 0.17rem;
+  float: left;
+}
+.news .news_bottom .content .box .text .small span {
+  float: left;
+  display: block;
+  color: #cccccc;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.abouts .box {
+  margin: 0.15rem 0;
+  overflow: hidden;
+  padding: 0.15rem;
+  background: #fff;
+  box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+}
+.abouts .box p {
+  margin: 0 0 0.1rem 0 !important;
+}
+.abouts .box .tittle p {
+  font-size: 0.32rem;
+  color: #292929;
+  line-height: 0.36rem;
+  border-bottom: 1px solid #f4f4f4;
+}
+.abouts .box .con p {
+  font-size: 0.28rem;
+  color: #666666;
+  line-height: 0.4rem;
+  max-height: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.abouts .box .con a.links {
+  display: block;
+  float: right;
+  color: #016aab;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.abouts .box .con ul {
+  max-height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.abouts .box .con ul li {
+  position: relative;
+}
+.abouts .box .con ul li a {
+  display: block;
+  font-size: 0.28rem;
+  color: #666666;
+  line-height: 0.4rem;
+  max-width: 5.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.abouts .box .con ul li a:hover {
+  color: #016AAB;
+}
+.abouts .box .con ul li span {
+  position: absolute;
+  display: block;
+  float: right;
+  color: #999;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  top: 0;
+  right: 0.1rem;
+}
+/*# sourceMappingURL=index.css.map */

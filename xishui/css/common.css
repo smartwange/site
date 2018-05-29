@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 100px;
+  font-family: "微软雅黑";
+}
+.container {
+  width: 10rem;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.welcome {
+  height: 0.3rem;
+}
+.welcome .p1 {
+  color: #959595;
+  font-size: 0.12rem;
+  line-height: 0.3rem;
+}
+.welcome .ser form {
+  float: left;
+  line-height: 0.3rem;
+  padding: 0.03rem;
+}
+.welcome .ser #keywords {
+  line-height: 0.3rem;
+  float: left;
+  height: 0.24rem;
+  width: 2.34rem;
+  outline: none;
+  border: 1px #1793e6 solid;
+}
+.welcome .ser #submit {
+  outline: none;
+  line-height: 0.3rem;
+  float: left;
+  width: 0.26rem;
+  height: 0.26rem;
+  border: none;
+  background: url(../img/search.png) no-repeat;
+}
+.welcome .ser .p3 {
+  margin-left: 0.3rem;
+  float: left;
+  color: #959595;
+  font-size: 0.12rem;
+  line-height: 0.3rem;
+}
+.welcome .ser .p3 a {
+  color: #959595;
+  font-size: 0.12rem;
+  line-height: 0.3rem;
+}
+.banner {
+  height: 1.88rem;
+  width: 100%;
+  clear: both;
+}
+.banner .logo {
+  padding-top: 0.49rem;
+}
+.banner .logo img {
+  line-height: 1.88rem;
+  width: 5.76rem;
+  height: 0.9rem;
+}
+.banner .person {
+  padding-top: 0.3rem;
+}
+.banner .person img {
+  line-height: 1.88rem;
+  width: 4.16rem;
+  height: 1.28rem;
+}
+.navs {
+  width: 100%;
+  height: 0.5rem;
+}
+.navs ul li {
+  text-align: center;
+  float: left;
+  width: 11.11111111%;
+  height: 0.5rem;
+}
+.navs ul li.active {
+  background: #1793e6;
+}
+.navs ul li a {
+  display: block;
+  font-size: 0.16rem;
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.5rem;
+}
+.bgs {
+  height: 0.7rem;
+  padding: 0.1rem 0;
+  text-align: center;
+}
+.bgs img {
+  width: 9.8rem;
+  height: 0.7rem;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.footer {
+  width: 100%;
+  height: 1.34rem;
+  background: #3f7fc9;
+  clear: both;
+  margin-top: 0.4rem;
+}
+.footer .left a {
+  display: block;
+}
+.footer .left img {
+  width: 0.52rem;
+  height: 0.62rem;
+  overflow: hidden;
+}
+.footer .middle {
+  width: 8.4rem;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.footer .middle p {
+  text-align: center;
+  line-height: 0.32rem;
+}
+.footer .middle .p1 {
+  color: #fff;
+  font-size: 0.16rem;
+}
+.footer .middle .p1 a {
+  color: #fff;
+  font-size: 0.16rem;
+}
+.footer .middle .p3,
+.footer .middle .p5 {
+  color: #fff;
+  font-size: 0.16rem;
+}
+.footer .right a {
+  display: block;
+}
+.footer .right img {
+  width: 0.96rem;
+  height: 0.42rem;
+}

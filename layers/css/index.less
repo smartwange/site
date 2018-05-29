@@ -1,0 +1,324 @@
+body{
+    background: #f7f7f7;
+}
+.header {
+  height: 1rem;
+  position: relative;
+  .top{
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        .log {
+            height: 1rem;
+            width: 2.76rem;
+          img{
+              line-height: 1rem;
+              width: 2.76rem;
+              height: 0.7rem;
+              display: block;
+              padding: 0.15rem 0;
+              overflow: hidden;
+          }
+        }
+        .nav {
+            height: 1rem;
+            width: 9rem;
+            ul{
+                height: 1rem;
+               float: right;
+            }
+            li {
+                float: left;
+                a {
+                  display: block;
+                  line-height: 1rem;
+                  font-size: 0.14rem;
+                  color: #fff;
+                  margin-left: 0.26rem;
+                  text-transform: uppercase;
+                 
+                }
+                &.active a{
+                   color: #dea002;
+                }
+            }
+            
+        }
+   }
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  z-index: -999;
+  width: 100%;
+  overflow: hidden;
+   .swiper-container {
+      width: 100%;
+      max-height: 7rem;
+      overflow: hidden;
+        .swiper-slide img {
+          width: 100%;
+          height: 7rem;
+          overflow: hidden;
+        }
+    }
+} 
+//news
+.news{
+   padding: 0.3rem 0; 
+   margin-top: 6.4rem;
+   .news_top{
+       width: 100%;
+       height: 1.6rem;
+       li{
+           width: 100%/8;
+           float: left;
+           text-align: center;
+           .img_bg{
+               margin: 0 auto;
+               height: 1.2rem;
+               width: 1.2rem;
+               background: #fff;
+               border-radius: 50%;
+               cursor: pointer;
+               img{
+                   max-height: 0.7rem;
+                  max-width: 0.7rem;
+                  overflow: hidden;
+                  display: block;
+                    margin: auto auto;
+                    padding-top: 0.3rem;
+               }
+           }
+           &:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8){
+                   img{
+                      padding-top: 0.4rem; 
+                   }
+           }
+           &.active .img_bg{
+               background: #add3f4;
+           }
+           p{
+               color: #016aab;
+               font-size: 0.24rem;
+               line-height: 0.6rem;
+           }
+       }
+   }
+   .news_bottom{
+       padding: 0.2rem;
+       background: #fff;
+       margin-top: 0.4rem;
+       overflow: hidden;
+       box-shadow: 0 2px 12px #959595, 0 0 1px #959595, 0 0 1px #959595;
+       .content{
+           display: none;
+           .p7{
+               text-align: center;
+               a{
+                   display: block;
+                   color: #016aab;
+                   font-size: 0.16rem;
+                   line-height: 0.5rem;
+               }
+           }
+           &.active{
+               display: block;
+           }
+           .box{
+               height: 1rem;
+               padding-bottom: 0.2rem;
+               .images{
+                   width: 1.5rem;
+                   height: 1rem;
+                   overflow: hidden;
+                   display: block;
+                   float: left;
+               }
+               .text{
+                   position: relative;
+                   float: right;
+                   width: 9.8rem;
+                   height: 1rem;
+                   border-bottom: 1px solid #dcdcdc;
+                   .p1{
+                       color: #016aab;
+                       font-size: 0.18rem;
+                       line-height: 0.3rem;
+                       max-height: 0.3rem;
+                       max-width: 7.4rem;
+                       overflow: hidden;
+                       text-overflow: ellipsis;
+                   }
+                   .p3{
+                       a{
+                           display: block;
+                           color: #626262;
+                           font-size: 0.14rem;
+                           line-height: 0.24rem;
+                           max-height: 0.48rem;
+                           overflow: hidden;
+                           text-overflow: ellipsis;
+                           &:hover{
+                               color: #016aab;
+                               text-decoration: underline;
+                           }
+                       }
+                   }
+                   .p5{
+                      a{
+                          display: block;
+                          color: #016aab;
+                       font-size: 0.12rem;
+                       line-height: 0.24rem;
+                      } 
+                       text-align: right;
+                   }
+                   .small{
+                       top: 0;
+                       right: 0.3rem;
+                       position: absolute;
+                       .xin{
+                           padding-top: 0.07rem;
+                           height: 0.16rem;
+                           width: 0.16rem;
+                           display: block;
+                           float: left;
+                       }
+                       .calender{
+                            padding-top: 0.07rem;
+                           display: block;
+                           width: 0.2rem;
+                           height: 0.16rem;
+                           float: left;
+                           margin-left: 0.4rem;
+                       }
+                       span{
+                           margin-left: 0.05rem;
+                           float: left;
+                           display: block;
+                           color: #959595;
+                           font-size: 0.14rem;
+                           line-height: 0.3rem;
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+.search{
+    .box{
+        width: 7.5rem;
+        height: 0.38rem;
+        margin: 0 auto;
+        border: 1px solid #add3f4;
+        background: #fff;
+        input#text{
+            width: 6.4rem;
+            height:0.38rem;
+            float: left;
+            border: none;
+            outline: none;
+            padding-left: 0.2rem;
+        }
+        img{
+            padding: 0.09rem 0.1rem;
+            display: block;
+            height: 0.2rem;
+            width: 0.2rem;
+            overflow: hidden;
+             float: left;
+        }
+        input.search{
+            height: 0.39rem;
+            width: 0.7rem;
+            background: #016aab;
+            color: #fff;
+             float: left;
+             border: none;
+            outline: none;
+        }
+    }
+}
+.abouts{
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    height: 5rem;
+    .contents{
+        float: left;
+        width: 100%/4;
+        height: 5rem;
+        padding: 0 0.1rem;
+        box-sizing: border-box;
+        .box{
+            height: 4.6rem;
+            background: #fff;
+            position: relative;
+            padding: 0.2rem;
+            .p1{
+                line-height: 1rem;
+                font-size: 0.32rem;
+                color: #292929;
+            }
+            .p3{
+                line-height: 0.32rem;
+                font-size: 0.14rem;
+                color: #666666;
+                max-height: 3rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .p5{
+                position: absolute;
+                width: 0.7rem;
+                left: 0.2rem;
+                bottom: 0.3rem;
+                a{
+                    display: block;
+                    line-height: 0.24rem;
+                    font-size: 0.16rem;
+                    color: #016aab;
+                }
+                
+            }
+            ul{
+                max-height: 3.2rem;
+                overflow: hidden;
+                li{
+                        clear: both;
+                    position: relative;
+                    margin-bottom: 0.2rem;
+                    height: 0.44rem;
+                    a{
+                        display: block;
+                        line-height: 0.22rem;
+                        font-size: 0.14rem;
+                        color: #666666;
+                        float: left;
+                        max-height: 0.6rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        &:hover{
+                            color: #016AAB;
+                        }
+                    }
+                    span{
+                        display: block;
+                        float: right;
+                        line-height: 0.22rem;
+                        font-size: 0.14rem;
+                        color: #666666;
+                        position: absolute;
+                        top: 0.22rem;
+                        padding: 0 0.116rem;
+                        z-index: 999;
+                        right: 0rem;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
